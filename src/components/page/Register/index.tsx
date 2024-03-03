@@ -7,7 +7,7 @@ import {
   layout,
 } from "@/components/page/Register/Register.css";
 import { Button } from "@/components/shared/Button";
-import { FormEventHandler, useId, useState } from "react";
+import { FormEventHandler, useId } from "react";
 import { useNavigate } from "react-router-dom";
 
 export const Register = () => {
